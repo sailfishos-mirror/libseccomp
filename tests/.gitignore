@@ -71,3 +71,4 @@ util.pyc
 61-sim-transactions
 62-sim-arch_transactions
 63-live-notify_addfd
+64-live-trapx
