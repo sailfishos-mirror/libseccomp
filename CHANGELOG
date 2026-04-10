@@ -11,6 +11,8 @@ https://github.com/seccomp/libseccomp
 - Add support for the SECCOMP_FILTER_FLAG_WAIT_KILLABLE_RECV flag
 - Add support for transactions with the seccomp_transaction_start(),
   seccomp_transaction_commit(), and seccomp_transaction_reject() APIs
+- Add a seccomp_export_bpf_mem() API to generate the seccomp BPF filter and
+  export it to a caller supplied memory buffer
 - Add a seccomp_precompute() API to generate the seccomp BPF filter prior to
   seccomp_load() or seccomp_export_bpf_mem()
 - Add support for binary tree filters without syscalls
